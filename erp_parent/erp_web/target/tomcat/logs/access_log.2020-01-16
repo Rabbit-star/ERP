@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:17 +0800] "POST /erp/login_showName HTTP/1.1" 200 30 http-bio-8080-exec-2 4031
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:18 +0800] "POST /erp/menu_getMenuTree HTTP/1.1" 200 4006 http-bio-8080-exec-1 4435
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:22 +0800] "POST /erp/login_checkUser HTTP/1.1" 200 29 http-bio-8080-exec-3 863
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:22 +0800] "POST /erp/login_showName HTTP/1.1" 200 38 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:23 +0800] "POST /erp/menu_getMenuTree HTTP/1.1" 200 4006 http-bio-8080-exec-6 200
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:30 +0800] "GET /erp/supplier.html?type=1 HTTP/1.1" 200 3363 http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:30 +0800] "GET /erp/js/crud.js HTTP/1.1" 200 3917 http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:30 +0800] "GET /erp/ui/download.js HTTP/1.1" 304 - http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:55 +0800] "GET /erp/supplier.html?type=1 HTTP/1.1" 304 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:53:55 +0800] "GET /erp/js/crud.js HTTP/1.1" 304 - http-bio-8080-exec-1 2
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:54:58 +0800] "GET /erp/index.html HTTP/1.1" 304 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:54:58 +0800] "POST /erp/login_showName HTTP/1.1" 200 38 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:54:58 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:54:58 +0800] "POST /erp/menu_getMenuTree HTTP/1.1" 200 4006 http-bio-8080-exec-5 313
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:55:04 +0800] "GET /erp/supplier.html?type=1 HTTP/1.1" 304 - http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:55:04 +0800] "GET /erp/js/crud.js HTTP/1.1" 200 3943 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [16/Jan/2020:18:55:05 +0800] "POST /erp/supplier_listByPage?t1.type=1 HTTP/1.1" 200 381 http-bio-8080-exec-5 350

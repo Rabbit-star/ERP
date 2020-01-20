@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.cxy.erp.entity.Emp" table="emp" >
+        <id name="uuid" >
+            <generator class="org.hibernate.id.enhanced.SequenceStyleGenerator"> <param name="sequence_name">emp_seq</param> </generator>
+        </id>
+
+        <property name="username" /> 
+        <property name="pwd" update="false" /> 
+        <property name="name" /> 
+        <property name="gender" /> 
+        <property name="email" /> 
+        <property name="tele" /> 
+        <property name="address" /> 
+        <property name="birthday" /> 
+        
+ 		<many-to-one name="dep" class="com.cxy.erp.entity.Dep" column="depuuid"></many-to-one>
+ 		<!-- role与emp多对多关系,中间表emp_role -->
+		<bag name="roles" order-by="roleuuid" table="emp_role">
+
+			<key column="empuuid"></key>
+			<many-to-many class="com.cxy.erp.entity.Role" column="roleuuid">
+		
+			</many-to-many>			
+		</bag>
+    </class>
+</hibernate-mapping>

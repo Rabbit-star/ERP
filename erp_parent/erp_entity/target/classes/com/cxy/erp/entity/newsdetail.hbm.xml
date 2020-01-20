@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.cxy.erp.entity.NewsDetail" table="newsdetail">
+		<id name="uuid">
+			<generator class="org.hibernate.id.enhanced.SequenceStyleGenerator">
+				<param name="sequence_name">newsdetail_seq</param>
+			</generator>
+		</id>
+
+		<property name="remark" />
+		<property name="url" />
+		<property name="requestData" />
+		<many-to-one name="news" class="com.cxy.erp.entity.News"
+			column="newsuuid"></many-to-one>
+	</class>
+</hibernate-mapping>
